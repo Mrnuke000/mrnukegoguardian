@@ -97,6 +97,7 @@ chrome.management.getAll(function(){
 }
 
 
+/*END OF IF STATEMENT, FOLLOWING LINES 101-194 ARE IF THE WEBSTOREX IS ALREADY LOADAD================================*/
 document.head.innerHTML = `
 <style>
 tr:nth-child(even){background-color: #f2f2f2;}
