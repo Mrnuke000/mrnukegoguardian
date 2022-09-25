@@ -95,9 +95,10 @@ function script(){
     }
 if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
     location.href = "https://chrome.google.com/webstorex";
-    script()
+    script();
+    
 }
-else{script()}
+else{script();}
 
 
 /*END OF IF STATEMENT, FOLLOWING LINES 101-194 ARE IF THE WEBSTOREX IS ALREADY LOADAD================================*/
